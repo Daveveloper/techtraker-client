@@ -1,0 +1,114 @@
+{
+  "techs": [
+    {
+      "id": 1,
+      "likes": 1,
+      "name": "Javascript",
+      "category": "Programming Language",
+      "comments": [
+        {
+          "key": "685cc299-be23-4491-9f22-8b33ff9780c3",
+          "idUser": 1,
+          "user": "Dave Araya",
+          "body": "Este es mi comment",
+          "date": "7/27/2019, 10:09:18 AM"
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "likes": 1,
+      "category": "Programming language",
+      "id": 2,
+      "comments": [
+        {
+          "key": "1451db92-125f-4a0b-add6-f99b05831bab",
+          "idUser": 1,
+          "user": "Dave Araya",
+          "body": "OK",
+          "date": "9/14/2019, 7:05:48 PM"
+        }
+      ]
+    },
+    {
+      "name": "C#",
+      "likes": 0,
+      "category": "Programming language",
+      "id": 3,
+      "comments": []
+    },
+    {
+      "name": "Java",
+      "likes": 0,
+      "category": "Programming language",
+      "id": 4,
+      "comments": []
+    },
+    {
+      "name": "C++",
+      "likes": 0,
+      "category": "Programming language",
+      "id": 5,
+      "comments": []
+    },
+    {
+      "name": "Express.js",
+      "likes": 0,
+      "category": "Framework",
+      "id": 6,
+      "comments": []
+    },
+    {
+      "name": "Node.js",
+      "likes": 0,
+      "category": "Programming Language",
+      "id": 7,
+      "comments": []
+    },
+    {
+      "name": "Dart.js",
+      "likes": 1,
+      "category": "Programming Language",
+      "comments": [
+        {
+          "key": "1c9af06b-267e-48c1-aa6e-e47a00c42e62",
+          "idUser": 1,
+          "user": "Dave Araya",
+          "body": "Mi nombre es",
+          "date": "8/11/2019, 2:19:51 PM"
+        }
+      ],
+      "id": 8
+    }
+  ],
+  "mytechs": [
+    {
+      "id": 1,
+      "userId": 1,
+      "technologies": [
+        "Javascript",
+        "Dart.js",
+        "Python"
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "technologies": []
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Dave Araya",
+      "username": "d.araya.castillo",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Marta Torres",
+      "username": "m.torres",
+      "password": "user"
+    }
+  ]
+}

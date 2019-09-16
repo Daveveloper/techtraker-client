@@ -1,0 +1,38 @@
+.form{
+  background: linear-gradient(360deg, #555, #333);
+  padding: 5px;
+}
+.form__group {
+  width: calc(100% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  color:#fff;
+}
+.form__group button{
+  margin-top:10px;
+  border: none;
+  border-radius: 5px;
+  background: #047e74;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 12px;
+  width: 30%;
+  margin: auto;
+}
+.form__group button:hover{
+  background:#4a89ff;
+  color: #fff;
+}
+.form__group input, select{
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 5px;
+}
+.form__group textarea{
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}

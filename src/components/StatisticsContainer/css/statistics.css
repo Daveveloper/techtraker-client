@@ -1,0 +1,21 @@
+.backButton{
+  display: block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.header {
+  padding: 20px;
+}
+
+.numbers {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.frameChart {
+  width: 100%;
+  padding-top: 20px;
+}

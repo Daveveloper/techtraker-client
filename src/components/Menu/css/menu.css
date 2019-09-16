@@ -1,0 +1,17 @@
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-items .button {
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 550px) {
+  .menu-items {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

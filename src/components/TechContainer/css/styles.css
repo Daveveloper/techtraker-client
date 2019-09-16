@@ -1,0 +1,100 @@
+.tech-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: calc(100% - 20px);
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.tech-card{
+  display: flex;
+  flex-direction: column-reverse;
+  width: calc(100% - 30px);
+  background: linear-gradient(90deg, #333, #222);
+  color: #fff;
+  box-shadow: 2px 6px 12px -1px rgba(0,0,0,0.75);
+  margin: 10px 0;
+}
+.tech-card:hover{
+  box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.75);
+}
+.tech-card .action-buttons{
+  border-top: 1px solid #666;
+  width: 100%;
+  display: flex;
+  background: #222;
+  padding: 10px 0;
+  justify-content: space-evenly;
+  border-bottom-right-radius: 10px;
+}
+.tech-card .tech-name{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px;
+}
+.tech-name h1{
+  color: #ecf0f1;
+  cursor: default;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+}
+.tech-name small{
+  color: #4affd8;
+  font-size: 0.8em;
+  cursor: default;
+  border: 0.8px solid teal;
+  border-radius: 2px;
+  width: 70%;
+  margin: auto;
+}
+.tech-name small span{
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+}
+
+.tech-card .btnShow {
+  border: 1px solid #218c74;
+  background: #333;
+  border-radius: 5px;
+}
+
+.tech-card .title-tech{
+  font-weight: 200;
+}
+
+.counter{
+  position: relative;
+}
+
+.show{
+  display: inline-block;
+}
+
+.input {
+  width: 40%;
+}
+
+.search-wrapper {
+  margin: 20px;
+}
+
+@media screen and (min-width: 551px) {
+  .tech-container {
+    flex-direction: row;
+  }
+  .tech-card {
+    width: 40%;
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .tech-container {
+    flex-direction: row;
+  }
+  .tech-card {
+    width: 25%;
+  }
+}

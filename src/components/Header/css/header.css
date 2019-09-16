@@ -1,0 +1,14 @@
+.AppHeader{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background:radial-gradient(circle, #666, #333);
+  padding: 25px;
+  color: #fff;
+  text-shadow: 1px 8px 5px rgba(0,0,0,0.5);
+}
+.AppHeader h1{
+  font-size: 3em;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
